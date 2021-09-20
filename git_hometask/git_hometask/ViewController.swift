@@ -13,6 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let devisionResult = divide(dividened: 10, divider: 5)
+        print(devisionResult)
+    }
+    
+    private func divide(dividened: Int, divider: Int) -> Int {
+        dividened / divider
     }
 }
 
