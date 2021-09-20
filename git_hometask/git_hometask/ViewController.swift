@@ -8,12 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var firstNumber = 80
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
