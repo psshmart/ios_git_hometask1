@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var dividend = 20
+    var divider = 2
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let devisionResult = divide(dividened: 10, divider: 5)
+        let devisionResult = divide(dividened: dividend, divider: divider)
         print(devisionResult)
     }
     
