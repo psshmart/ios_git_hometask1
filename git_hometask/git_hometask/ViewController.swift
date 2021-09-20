@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let subtractionResult = subtraction(minued: 5, subtrahend: 3)
+        print(subtractionResult)
     }
-
-
+    
+    private func subtraction(minued: Int, subtrahend: Int) -> Int {
+        minued - subtrahend
+    }
 }
 
