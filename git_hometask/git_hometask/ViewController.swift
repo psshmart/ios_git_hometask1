@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let firstNumber = 5
+    let secondNumber = 10
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let sum = sumNumbers(first: 2, second: 4)
+        let sum = sumNumbers(first: firstNumber, second: secondNumber)
         print(sum)
     }
 
